@@ -1,3 +1,4 @@
+import { Roboto } from "next/font/google";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -8,6 +9,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        Roboto:['var(--font-roboto)']
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
