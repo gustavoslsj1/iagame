@@ -27,7 +27,7 @@ export default async function Search({
                     <p> GAME Nao  ENCONTRADO</p>
                 )}
 
-                <section className=" grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+                <section className=" gap-7 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                     {game && game.map ((item) =>(
                         <GameCard key={item.id} data={item}/> 
                     ))}
