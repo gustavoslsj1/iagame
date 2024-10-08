@@ -16,7 +16,7 @@ export function Input(){
     }
     return(
         <form 
-        className="w-full bg-slate-200 my-24 p-2 flex justify-between rounded-lg items-center " 
+        className="w-full bg-slate-200 my-5 p-2 flex justify-between rounded-lg items-center " 
         onSubmit={handleSearch}>
             <input className="w-11/12 bg-slate-200 outline-none"
             type="text" 
